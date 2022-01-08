@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/rubik-v14-latin_cyrillic-regular.eot'); 
+    src: local(''),
+         url('../fonts/rubik-v14-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/rubik-v14-latin_cyrillic-regular.woff2') format('woff2'), 
+         url('../fonts/rubik-v14-latin_cyrillic-regular.woff') format('woff'), 
+         url('../fonts/rubik-v14-latin_cyrillic-regular.ttf') format('truetype'),
+         url('../fonts/rubik-v14-latin_cyrillic-regular.svg#Rubik') format('svg'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/rubik-v14-latin_cyrillic-500.eot'); 
+    src: local(''),
+         url('../fonts/rubik-v14-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/rubik-v14-latin_cyrillic-500.woff2') format('woff2'), 
+         url('../fonts/rubik-v14-latin_cyrillic-500.woff') format('woff'), 
+         url('../fonts/rubik-v14-latin_cyrillic-500.ttf') format('truetype'), 
+         url('../fonts/rubik-v14-latin_cyrillic-500.svg#Rubik') format('svg'); 
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik'Arial sans-serif;
+}
+
+
+.img{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header{
+    background-color: gray;
+}
+
+.header-container{
+    background-color: gray;
+}
+
+.main{
+    background-color: grey;
+}
+
+.section-container{
+    background-color: grey;
+}
+
+
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list{
+margin: 0;
+padding: 0;
+list-style-type: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.header-left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+}    
+    
+    
+    
+    
+
+    
+    .header-list-item{
+        margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    }
+    
+    .header-symbol{
+        margin-right: 5px;
+        color: #285193; 
+    }
+
+
+
